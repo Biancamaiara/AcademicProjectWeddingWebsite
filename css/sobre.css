@@ -1,0 +1,202 @@
+/* ***Comandos de reset do browser*** */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video
+
+
+/*Reset de margens e paddins padrão*/ 
+* {
+  margin: 0;
+  padding: 0; // tirar todos os espaços e bordas do site
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* ***Fontes alojadas no site*** */
+
+.center {
+  background-color: #f0f5ef;
+  height: 150px;
+  display: flex;
+  gap: 5rem;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+.logo {
+  width: 50%;
+  margin-left: 10px;
+  padding: 1px 0;
+}
+.logo img {
+  width: 150px;
+  height: 150px;
+}
+.menu {
+  padding-top: 80px;
+  width: 40%; /*se nao tiver espaço cai pra proxima linha */
+  text-aling: right;
+}
+.menu a {
+  font-family: Cormorant Garamond;
+  font-style: bold;
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 20px; /* afasta o texto um do outro*/
+}
+
+.sobre {
+  width: 490px;
+}
+.sobre h1 {
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-family: Cormorant Garamond;
+  font-style: bold;
+  font-size: 30px;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  line-height: 40px;
+}
+.descricao {
+  padding: 10px;
+  font-family: Opens sans;
+  font-size: 1em;
+  text-align: justify;
+  line-height: 30px;
+}
+section a {
+  margin-bottom: 50px;
+  margin: 30px 0 50px 0;
+  //margin-top: 50px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid rgb(138, 133, 133);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300px;
+  font-style: normal;
+}
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main img {
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+}
+main img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+main a:hover {
+  transform: scale(1.1);
+  border-bottom: 2px solid rgb(138, 133, 133);
+  font-size: 17px;
+}
+/* RODAPÉ*/
+
+footer {
+  background-color: #f0f5ef;
+  color: black;
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px 0;
+  font-family: Opens sans;
+}
+
+footer a {
+  margin: 0 15px;
+
+  margin-right: 20px;
+}
+
+footer p {
+  margin: 15px 0;
+  text-align: center;
+}
